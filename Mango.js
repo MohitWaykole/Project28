@@ -6,7 +6,7 @@ class Mango{
             friction : 1,
         }
         this.radius = radius;
-        this.image = loadImage("Plucking mangoes/mango.png");
+        this.image = loadImage("mango.png");
         this.mango = Bodies.circle(x, y, radius, option);
         World.add(world, this.mango);
     }
