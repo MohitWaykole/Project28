@@ -5,7 +5,7 @@ class Tree{
         }
         this.width = width;
         this.height = height;
-        this.image = loadImage("Plucking mangoes/tree.png");
+        this.image = loadImage("tree.png");
         this.tree = Bodies.rectangle(x, y, width, height, option);
         World.add(world, this.tree);
     }
