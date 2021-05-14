@@ -6,7 +6,7 @@ const Body = Matter.Body;
 
 function preload()
 {
-	boyImg = loadImage("Plucking mangoes/boy.png");
+	boyImg = loadImage("boy.png");
 }
 
 function setup() {
